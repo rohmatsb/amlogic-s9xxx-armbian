@@ -177,6 +177,7 @@ on:
         default: "6.1.y_6.6.y"
         type: choice
         options:
+          - 6.6.41
           - 5.4.y
           - 5.10.y
           - 5.15.y
@@ -230,7 +231,7 @@ on:
         options:
           - ophub
           - angel
-          - yourname
+          - rohmatsb
 
 env:
   TZ: America/New_York
